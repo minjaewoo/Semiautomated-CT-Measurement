@@ -31,7 +31,3 @@ python3 path/to/unidirectional_measurement.py path/to/sample_images/28170.dcm 21
 GNU General Public License v3.0+ (see LICENSE file or https://www.gnu.org/licenses/gpl-3.0.txt for full text)
 
 Copyright 2020, Clemson University - Department of Public Health Sciences
-
-
-
-python3 /path/to/unidirectional_measurement.py /path/to/sample_images/28170.dcm 219 298
