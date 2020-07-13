@@ -4,7 +4,7 @@ This repository contains codes for semi-automated unidirectional measurement of 
 
 The proposed algorithm is designed to offer a binary answer (yes or no) for the following question: 
 
-*In the given image, is its lesion size smaller or larger than [___] cm?
+* In the given image, is its lesion size smaller or larger than [_____] cm?
 
 In the blank, we start from 1.49cm, which is the minimum measurable lesion size suggested by RECIST 1.1 guideline, up to 7.0cm with an increment of 0.01cm. 
 **Disclaimer: The algorithm may not work reliably for lesions larger than 6cm due to the lack of training data.
