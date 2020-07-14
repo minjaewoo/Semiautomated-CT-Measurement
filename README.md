@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains codes for semi-automated unidirectional measurement of lung lesions in compliance with Response Evaluation Criteria in Solid 1.1 (RECIST 1.1). 
+This repository contains codes for semi-automated unidirectional measurement of lung lesions for Response Evaluation Criteria in Solid 1.1 (RECIST 1.1) annotation. 
 
 The proposed algorithm is designed to offer a binary answer (yes or no) for the following question: 
 
