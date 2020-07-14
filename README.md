@@ -15,7 +15,7 @@ Sample images are included in sample_images/ directory for testing purposes. You
 
 # Sample Usage
 * First download and locate files and directory
-* find the measurement. In this example, 41950.dcm file was selected. According to sample_images.csv file, its measurement center is (359.683891, 275.490235). The algorithm works for any arbitrary point inside the lesion, so we will simply use (359, 275) as its input.
+* Find the measurement. In this example, 41950.dcm file was selected. According to sample_images.csv file, its measurement center is (359.683891, 275.490235). The algorithm works for any arbitrary point inside the lesion, so we will simply use (359, 275) as its input.
 * Run the following:
 ```
 python3 path/to/unidirectional_measurement.py path/to/sample_images/41950.dcm 359 275
