@@ -50,7 +50,7 @@ def measure_size_with_classifier(dcm_path, center_x, center_y):
     for i in range(0,57): # this tool supports lesion size measurement between 1.5cm and 7cm
         xdata+=[1.4+i/10+j/50 for j in range(0,5)]
         ydata+=[round(model.predict(convert_dcm_to_pixel_array(dcm_path, 1.4+i/10+j/50, center_x, center_y).reshape(-1, 128, 128, 1))[0][0], 3) for j in range(0,5)]
-    print(ydata)
+
     pattern = [(x, y) for x, y in zip(xdata, ydata) if round(y,1) not in [0,1]]
     final_measurement = analyze_classification_results(pattern)
     return final_measurement
